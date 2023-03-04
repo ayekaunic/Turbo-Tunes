@@ -34,7 +34,7 @@ for i in range(no_of_songs):
     
 print("Songs downloaded! Speeding them up!")
 
-# using fmpeg to speed up the songs by 35% and save the results to the music directory
+# using fmpeg to speed up the songs and save the results to the music directory
 for file_name in os.listdir(temp_folder_path):
     if file_name.endswith('.mp3'):
         input_path = os.path.join(temp_folder_path, file_name)
